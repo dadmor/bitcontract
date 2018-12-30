@@ -1,3 +1,3 @@
-# bitcontract
+# bitcontract landingpage
 
-xxx
+https://dadmor.github.io/bitcontract/
