@@ -108,13 +108,18 @@
 			height: auto;
 			box-shadow: 0 -5px 20px #000;
 			image-rendering: auto;
-  			image-rendering: crisp-edges;
-  			image-rendering: pixelated;
+  			/*image-rendering: crisp-edges;
+  			image-rendering: pixelated;*/
 		}
 		button{
 			padding:1em;
 			border:1px solid #666;
 			border-radius: 3px;
 		}
+		@media only screen and (max-width: 768px) {
+			.double{
+				display:block;
+			}
+		} 
 	</style>
 </html>
