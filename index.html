@@ -5,27 +5,106 @@
 	</head>
 	<body>
 
-		<h1>BitCONTRACT</h1>
-		<h2>Simple to understand,<br> decentralized and signed <br>electronic contract</h2>
+		<div class="header double">
+			<div>
+				<h1>BitCONTRACT</h1>
+				<h2>Simple to understand,<br> decentralized and independent <br>electronic contracts.</h2>
+			</div>
+			<div>
+				<img class="main_img" src="bitcontract.svg" alt="bitContracts documents">
+			</div>
+		</div>
 
+		<div class="double">
+			<div>
+				<h3>Design by third generation chain</h3>
+				<p>Bootstrap communication is realize by reverse binary network and build on casual bitcontracts signatures logic.</p>
+			</div>
+			<div class="smoothBg">
+				<img class="main_img" src="bitcontracts_network.svg" alt="bitContracts network">
+			</div>
+		</div>
+
+		<div class="dark-section double">
+			<div class="right">
+				<img class="app_img" src="bitcontracts_manager.png" alt="bitContracts network">
+			</div>
+			<div class="left">
+				<h2>Free app</h2>
+				<p>Try to start and manage transactions based on bitcontracts</p>
+				<button>Chrome store avilable soon</button>
+			</div>
+			
+		</div>
+
+		
+
+		
 	</body>
 	<style>
-		@import url('https://fonts.googleapis.com/css?family=Lato');
+		@import url('https://fonts.googleapis.com/css?family=Lato:300,400,900');
 		body{
+			padding:0;
+			margin:0;
 			text-align: center;
 			font-family: 'Lato', sans-serif;
 		}
-		h1{
+		.double{
+			display:flex;
+			align-items: center;
+		}
+		.double div{
+
+			text-align: center;
+			flex:0 0 40%;
+			padding:5%;
+		}
+		
+		.header{
+			background: radial-gradient(circle farthest-side at right bottom,#fefdfe 5%,#f8cdda 25%,#1d2b64 80%,#0e153a 98%)
+		}
+		.header h1{
 			font-weight: 900;
 			letter-spacing: 10px;
-			background: #ccc;
-			padding: 40px;
-			font-size:52px;
+			font-size: 48px;
+			color: #fff;
+			text-shadow: 0 0 2px #a7a7a7;
 		}
-		h2{
-			color: #999;
-			font-weight: 400;
+		.header h2{
+			font-weight: 300;
+			color: #fff;	
 			font-size: 18px;
+			letter-spacing: 1px;
+			line-height: 26px;
+		}
+		.dark-section{
+
+			color:#000;
+			background: radial-gradient(circle farthest-side at right bottom,#fff 8%,#154866 70%,#000);
+		}
+		h3{
+			font-weight: 400;
+		}
+		p{
+			font-weight: 300;
+		}
+		.smoothBg{
+			border-left: 1px solid#ebebeb;
+			background: #fcfcfc;
+		}
+		.main_img{
+			width:80%;
+		}
+		.app_img{
+			margin-bottom: -12%;
+			width: 100%;
+			height: auto;
+			box-shadow: 0 -5px 20px #000;
+		}
+		button{
+			padding:1em;
+			border:1px solid #666;
+			border-radius: 3px;
 		}
 	</style>
 </html>
